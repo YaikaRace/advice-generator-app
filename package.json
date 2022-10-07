@@ -1,0 +1,21 @@
+{
+  "name": "advice-generator-app",
+  "version": "1.0.0",
+  "description": "a challenge from frontendmentor.io",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "postcss ./src/input.css -o /public/css/styles.css",
+    "watch": "tailwindcss -i ./src/input.css -o ./public/css/styles.css --watch"
+  },
+  "keywords": [
+    "tailwindcss"
+  ],
+  "author": "Yaika Race",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.17",
+    "postcss-cli": "^10.0.0",
+    "tailwindcss": "^3.1.8"
+  }
+}

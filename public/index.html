@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Advice generator app</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/main.js" defer></script>
+  </head>
+  <body
+    class="min-h-screen min-w-[100vw] font-body bg-dark-blue flex flex-col justify-center"
+  >
+    <main
+      class="bg-dark-grayish-blue text-center relative flex flex-col items-center p-4 w-11/12 mx-auto rounded-2xl md:p-12 max-w-[550px]"
+    >
+      <h1
+        data-id="advice-number"
+        class="text-neon-green text-xs tracking-[0.3rem] my-6 uppercase"
+      >
+        ADVICE #0
+      </h1>
+      <q data-id="advice-container" class="text-[28px] text-light-cyan mb-6"
+        >It is easy to sit up and take notice, what's difficult is getting up
+        and taking action</q
+      >
+      <img
+        src="images/pattern-divider-mobile.svg"
+        alt="Divider"
+        class="w-full md:hidden mb-14"
+      />
+      <img
+        src="images/pattern-divider-desktop.svg"
+        alt="Divider"
+        class="hidden md:block w-full md:mb-6"
+      />
+      <button
+        data-id="dice-button"
+        class="bg-neon-green w-fit h-fit p-5 rounded-full absolute -bottom-8 hover:shadow-[0px_0px_40px_0px] hover:shadow-neon-green transition-all duration-300"
+      >
+        <img src="images/icon-dice.svg" alt="Dice" />
+      </button>
+    </main>
+    <div
+      class="text-xs absolute bottom-0 text-light-cyan flex w-full justify-center"
+    >
+      <p>
+        Challenge by
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          class="text-neon-green"
+          >Frontend Mentor</a
+        >. Coded by
+        <a
+          href="https://www.frontendmentor.io/profile/yaikarace"
+          target="_blank"
+          class="text-neon-green"
+          >Yahir (Yaika Race)</a
+        >.
+      </p>
+    </div>
+  </body>
+</html>
